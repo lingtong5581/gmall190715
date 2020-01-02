@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -14,5 +15,6 @@ public class HelloWorld {
         for (String s : list) {
             System.out.println("s = " + s);
         }
+        System.out.println("args = " + Arrays.deepToString(args));
     }
 }
